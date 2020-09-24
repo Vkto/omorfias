@@ -23,6 +23,7 @@ namespace API.Omorfias.Domain.Base.Services
         {
             _repository = repository;
             _validationResult = new ValidationResult();
+            
         }
 
         #endregion

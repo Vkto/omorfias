@@ -1,3 +1,8 @@
+C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.csprojAssemblyReference.cache
+C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.csproj.CoreCompileInputs.cache
+C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.AssemblyInfoInputs.cache
+C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.AssemblyInfo.cs
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -15,6 +20,7 @@ C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\bin\Debug\netcoreapp3.1\M
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
@@ -61,12 +67,6 @@ C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\bin\Debug\netcoreapp3.1\A
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\bin\Debug\netcoreapp3.1\API.Omorfias.AppServices.pdb
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\bin\Debug\netcoreapp3.1\API.Omorfias.Data.pdb
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\bin\Debug\netcoreapp3.1\API.Omorfias.Domain.pdb
-C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.csprojAssemblyReference.cache
-C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.csproj.CoreCompileInputs.cache
-C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.AssemblyInfoInputs.cache
-C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.AssemblyInfo.cs
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.RazorTargetAssemblyInfo.cache
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.csproj.CopyComplete
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\staticwebassets\API.Omorfias.StaticWebAssets.Manifest.cache
@@ -74,3 +74,4 @@ C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\s
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.dll
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.pdb
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.genruntimeconfig.cache
+C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.MvcApplicationPartsAssemblyInfo.cs
