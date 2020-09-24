@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/gmascb/.dotnet/store/|arch|/|tfm|",
-      "/home/gmascb/.nuget/packages"
+      "C:\\Users\\PICHAU\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\PICHAU\\.nuget\\packages"
     ]
   }
 }
