@@ -903,19 +903,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PICHAU\\.nuget\\packages\\": {}
+    "C:\\Users\\Dell\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.AppServices\\API.Omorfias.AppServices.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.AppServices\\API.Omorfias.AppServices.csproj",
       "projectName": "API.Omorfias.AppServices",
-      "projectPath": "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.AppServices\\API.Omorfias.AppServices.csproj",
-      "packagesPath": "C:\\Users\\PICHAU\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.AppServices\\obj\\",
+      "projectPath": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.AppServices\\API.Omorfias.AppServices.csproj",
+      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.AppServices\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PICHAU\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -928,11 +928,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.Data\\API.Omorfias.Data.csproj": {
-              "projectPath": "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.Data\\API.Omorfias.Data.csproj"
+            "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.Data\\API.Omorfias.Data.csproj": {
+              "projectPath": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.Data\\API.Omorfias.Data.csproj"
             },
-            "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj": {
-              "projectPath": "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj"
+            "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj": {
+              "projectPath": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj"
             }
           }
         }
@@ -970,7 +970,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
