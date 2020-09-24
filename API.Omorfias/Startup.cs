@@ -85,7 +85,7 @@ namespace API.Omorfias
 
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name: "API Verticais");
+                c.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name: "API Omorfias");
             });
         }
         private void AdicionarTransients(IServiceCollection services, IGerenciadorDeConfiguracoes gerenciadorDeConfiguracoes)
@@ -96,7 +96,7 @@ namespace API.Omorfias
 
             services.AddDbContext<OmorfiasContext>(options =>
             {
-                options.UseSqlServer(gerenciadorDeConfiguracoes.ObterValor<string>("IlangSQL"), sqlServerOptions => sqlServerOptions.CommandTimeout(gerenciadorDeConfiguracoes.ObterValor<int>("BancoTimeout")));
+                options.UseSqlServer(gerenciadorDeConfiguracoes.ObterValor<string>("OmorfiasSQL"), sqlServerOptions => sqlServerOptions.CommandTimeout(gerenciadorDeConfiguracoes.ObterValor<int>("BancoTimeout")));
                 options.EnableSensitiveDataLogging();
                 options.EnableDetailedErrors();
                 options.UseLoggerFactory(OmorfiasContext.LoggerFactory);
