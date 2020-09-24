@@ -6751,11 +6751,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias\\API.Omorfias.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Source\\Repos\\omorfias\\API.Omorfias\\API.Omorfias.csproj",
       "projectName": "API.Omorfias",
-      "projectPath": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias\\API.Omorfias.csproj",
+      "projectPath": "C:\\Users\\Dell\\Source\\Repos\\omorfias\\API.Omorfias\\API.Omorfias.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\Source\\Repos\\omorfias\\API.Omorfias\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6771,14 +6771,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.AppServices\\API.Omorfias.AppServices.csproj": {
-              "projectPath": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.AppServices\\API.Omorfias.AppServices.csproj"
+            "C:\\Users\\Dell\\Source\\Repos\\omorfias\\API.Omorfias.AppServices\\API.Omorfias.AppServices.csproj": {
+              "projectPath": "C:\\Users\\Dell\\Source\\Repos\\omorfias\\API.Omorfias.AppServices\\API.Omorfias.AppServices.csproj"
             },
-            "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.Data\\API.Omorfias.Data.csproj": {
-              "projectPath": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.Data\\API.Omorfias.Data.csproj"
+            "C:\\Users\\Dell\\Source\\Repos\\omorfias\\API.Omorfias.Data\\API.Omorfias.Data.csproj": {
+              "projectPath": "C:\\Users\\Dell\\Source\\Repos\\omorfias\\API.Omorfias.Data\\API.Omorfias.Data.csproj"
             },
-            "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj": {
-              "projectPath": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj"
+            "C:\\Users\\Dell\\Source\\Repos\\omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj": {
+              "projectPath": "C:\\Users\\Dell\\Source\\Repos\\omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj"
             }
           }
         }

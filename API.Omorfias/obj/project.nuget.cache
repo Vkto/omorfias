@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p1UXz+ISZDwDz9fFMqR1q6awJYp+sfBy0Ry0qLE3YvXYlLIop6BmFEvNjMGgoZOrwM1NWEIfMTkgw8/YSpm/tw==",
+  "dgSpecHash": "h4T+nW2Vsg0PioCuMd8PdXhX8MIaEN/G3/tiUGT10WHjwjkhbrqdFuSyOdk5n8JwfSr7wdwvXFuIHTXGlQ3ZKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias\\API.Omorfias.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Source\\Repos\\omorfias\\API.Omorfias\\API.Omorfias.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
