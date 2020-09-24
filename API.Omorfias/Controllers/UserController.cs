@@ -14,7 +14,7 @@ namespace API.Omorfias.Controllers
   
         }
         [HttpGet]
-        public int ObterUser(int idd)
+        public int ObterUser(int iddd)
         {
             var retorno = 1;
 
