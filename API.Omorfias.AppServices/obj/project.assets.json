@@ -903,7 +903,7 @@
     ]
   },
   "packageFolders": {
-    "/home/gmascb/.nuget/packages/": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -911,11 +911,11 @@
       "projectUniqueName": "/home/gmascb/workspace/omorfias/API.Omorfias.AppServices/API.Omorfias.AppServices.csproj",
       "projectName": "API.Omorfias.AppServices",
       "projectPath": "/home/gmascb/workspace/omorfias/API.Omorfias.AppServices/API.Omorfias.AppServices.csproj",
-      "packagesPath": "/home/gmascb/.nuget/packages/",
+      "packagesPath": "/root/.nuget/packages/",
       "outputPath": "/home/gmascb/workspace/omorfias/API.Omorfias.AppServices/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/gmascb/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
