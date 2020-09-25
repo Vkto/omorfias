@@ -36,4 +36,4 @@ COPY "API.Omorfias.csproj" ./
 
 COPY . ./
 # RUN dotnet publish -c Release -o API.Omorfias/
-CMD ASPNETCORE_URLS=https://*:5001 dotnet bin/Debug/netcoreapp3.1/API.Omorfias.dll
+CMD ASPNETCORE_URLS=http://*:5001 dotnet bin/Debug/netcoreapp3.1/API.Omorfias.dll
