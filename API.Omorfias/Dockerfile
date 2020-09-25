@@ -29,6 +29,7 @@
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1
 # WORKDIR /app
+ENV PORT=5001
 EXPOSE 5001
 
 COPY "API.Omorfias.csproj" ./
@@ -36,4 +37,4 @@ COPY "API.Omorfias.csproj" ./
 
 COPY . ./
 # RUN dotnet publish -c Release -o API.Omorfias/
-CMD ASPNETCORE_URLS=https://*:5001 dotnet bin/Debug/netcoreapp3.1/API.Omorfias.dll
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet bin/Debug/netcoreapp3.1/API.Omorfias.dll
