@@ -22,3 +22,4 @@ C:\Users\Dell\source\repos\omorfias\API.Omorfias.Domain\obj\Debug\netcoreapp3.1\
 C:\Users\Dell\source\repos\omorfias\API.Omorfias.Domain\obj\Debug\netcoreapp3.1\API.Omorfias.Domain.AssemblyInfo.cs
 C:\Users\Dell\source\repos\omorfias\API.Omorfias.Domain\obj\Debug\netcoreapp3.1\API.Omorfias.Domain.dll
 C:\Users\Dell\source\repos\omorfias\API.Omorfias.Domain\obj\Debug\netcoreapp3.1\API.Omorfias.Domain.pdb
+C:\Users\Dell\source\repos\omorfias\API.Omorfias.Domain\obj\Debug\netcoreapp3.1\API.Omorfias.Domain.csprojAssemblyReference.cache
