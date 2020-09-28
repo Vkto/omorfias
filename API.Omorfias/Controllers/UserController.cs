@@ -14,11 +14,9 @@ namespace API.Omorfias.Controllers
   
         }
         [HttpGet]
-        public int ObterUser()
+        public string ObterUser()
         {
-            var retorno = 1;
-
-            return retorno;
+            return "arroz";
         }
     }
 }
