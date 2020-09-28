@@ -53,15 +53,17 @@ namespace API.Omorfias
 
             AdicionarTransients(services, gerenciadorDeConfiguracoes);
 
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo
-                {
-                    Title = "API Omorfias",
-                    Version = "v1"
-                });
-            });
+            //services.AddSwaggerGen(c =>
+            //{
+            //    c.SwaggerDoc("v1", new OpenApiInfo
+            //    {
+            //        Title = "API Omorfias",
+            //        Version = "v1"
+            //    });
+              
+            //});
         }
+     
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -81,12 +83,12 @@ namespace API.Omorfias
             {
                 endpoints.MapControllers();
             });
-            app.UseSwagger();
+            //app.UseSwagger();
 
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name: "API Omorfias");
-            });
+            //app.UseSwaggerUI(c =>
+            //{
+            //    c.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name: "API Omorfias");
+            //});
         }
         private void AdicionarTransients(IServiceCollection services, IGerenciadorDeConfiguracoes gerenciadorDeConfiguracoes)
         {

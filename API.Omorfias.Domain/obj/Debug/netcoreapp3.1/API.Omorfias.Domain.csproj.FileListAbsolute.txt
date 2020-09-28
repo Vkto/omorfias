@@ -1,11 +1,3 @@
-C:/Users/Dell/Source/Repos/omorfias/API.Omorfias.Domain/bin/Debug/netcoreapp3.1/API.Omorfias.Domain.deps.json
-C:/Users/Dell/Source/Repos/omorfias/API.Omorfias.Domain/bin/Debug/netcoreapp3.1/API.Omorfias.Domain.dll
-C:/Users/Dell/Source/Repos/omorfias/API.Omorfias.Domain/bin/Debug/netcoreapp3.1/API.Omorfias.Domain.pdb
-C:/Users/Dell/Source/Repos/omorfias/API.Omorfias.Domain/obj/Debug/netcoreapp3.1/API.Omorfias.Domain.AssemblyInfoInputs.cache
-C:/Users/Dell/Source/Repos/omorfias/API.Omorfias.Domain/obj/Debug/netcoreapp3.1/API.Omorfias.Domain.AssemblyInfo.cs
-C:/Users/Dell/Source/Repos/omorfias/API.Omorfias.Domain/obj/Debug/netcoreapp3.1/API.Omorfias.Domain.csproj.CoreCompileInputs.cache
-C:/Users/Dell/Source/Repos/omorfias/API.Omorfias.Domain/obj/Debug/netcoreapp3.1/API.Omorfias.Domain.dll
-C:/Users/Dell/Source/Repos/omorfias/API.Omorfias.Domain/obj/Debug/netcoreapp3.1/API.Omorfias.Domain.pdb
 /home/gmascb/workspace/omorfias/API.Omorfias.Domain/bin/Debug/netcoreapp3.1/API.Omorfias.Domain.deps.json
 /home/gmascb/workspace/omorfias/API.Omorfias.Domain/bin/Debug/netcoreapp3.1/API.Omorfias.Domain.dll
 /home/gmascb/workspace/omorfias/API.Omorfias.Domain/bin/Debug/netcoreapp3.1/API.Omorfias.Domain.pdb
@@ -15,3 +7,12 @@ C:/Users/Dell/Source/Repos/omorfias/API.Omorfias.Domain/obj/Debug/netcoreapp3.1/
 /home/gmascb/workspace/omorfias/API.Omorfias.Domain/obj/Debug/netcoreapp3.1/API.Omorfias.Domain.csproj.CoreCompileInputs.cache
 /home/gmascb/workspace/omorfias/API.Omorfias.Domain/obj/Debug/netcoreapp3.1/API.Omorfias.Domain.dll
 /home/gmascb/workspace/omorfias/API.Omorfias.Domain/obj/Debug/netcoreapp3.1/API.Omorfias.Domain.pdb
+C:\Users\Dell\Source\Repos\omorfias\API.Omorfias.Domain\bin\Debug\netcoreapp3.1\API.Omorfias.Domain.deps.json
+C:\Users\Dell\Source\Repos\omorfias\API.Omorfias.Domain\bin\Debug\netcoreapp3.1\API.Omorfias.Domain.dll
+C:\Users\Dell\Source\Repos\omorfias\API.Omorfias.Domain\bin\Debug\netcoreapp3.1\API.Omorfias.Domain.pdb
+C:\Users\Dell\Source\Repos\omorfias\API.Omorfias.Domain\obj\Debug\netcoreapp3.1\API.Omorfias.Domain.csprojAssemblyReference.cache
+C:\Users\Dell\Source\Repos\omorfias\API.Omorfias.Domain\obj\Debug\netcoreapp3.1\API.Omorfias.Domain.AssemblyInfoInputs.cache
+C:\Users\Dell\Source\Repos\omorfias\API.Omorfias.Domain\obj\Debug\netcoreapp3.1\API.Omorfias.Domain.AssemblyInfo.cs
+C:\Users\Dell\Source\Repos\omorfias\API.Omorfias.Domain\obj\Debug\netcoreapp3.1\API.Omorfias.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Source\Repos\omorfias\API.Omorfias.Domain\obj\Debug\netcoreapp3.1\API.Omorfias.Domain.dll
+C:\Users\Dell\Source\Repos\omorfias\API.Omorfias.Domain\obj\Debug\netcoreapp3.1\API.Omorfias.Domain.pdb
