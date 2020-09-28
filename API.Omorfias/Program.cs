@@ -16,17 +16,13 @@ namespace API.Omorfias
             CreateHostBuilder(args).Build().Run();
         }
 
-        public static IWebHostBuilder CreateHostBuilder(string[] args) =>
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                })
-                .UseKestrel(options =>
-                            {                    
-                                options.Listen(IPAddress.Any, 50003);
-                                options.Limits.MaxRequestBodySize = null;
-                            });
+                });
 
     }
 }
