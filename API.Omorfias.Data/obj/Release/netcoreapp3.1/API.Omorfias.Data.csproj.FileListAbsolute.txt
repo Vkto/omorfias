@@ -10,3 +10,14 @@
 /home/gmascb/workspace/omorfias/API.Omorfias.Data/obj/Release/netcoreapp3.1/API.Omorfias.Data.csproj.CopyComplete
 /home/gmascb/workspace/omorfias/API.Omorfias.Data/obj/Release/netcoreapp3.1/API.Omorfias.Data.dll
 /home/gmascb/workspace/omorfias/API.Omorfias.Data/obj/Release/netcoreapp3.1/API.Omorfias.Data.pdb
+C:\Users\Dell\source\repos\omorfias\API.Omorfias.Data\bin\Release\netcoreapp3.1\API.Omorfias.Data.deps.json
+C:\Users\Dell\source\repos\omorfias\API.Omorfias.Data\bin\Release\netcoreapp3.1\API.Omorfias.Data.dll
+C:\Users\Dell\source\repos\omorfias\API.Omorfias.Data\bin\Release\netcoreapp3.1\API.Omorfias.Data.pdb
+C:\Users\Dell\source\repos\omorfias\API.Omorfias.Data\bin\Release\netcoreapp3.1\API.Omorfias.Domain.dll
+C:\Users\Dell\source\repos\omorfias\API.Omorfias.Data\bin\Release\netcoreapp3.1\API.Omorfias.Domain.pdb
+C:\Users\Dell\source\repos\omorfias\API.Omorfias.Data\obj\Release\netcoreapp3.1\API.Omorfias.Data.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\omorfias\API.Omorfias.Data\obj\Release\netcoreapp3.1\API.Omorfias.Data.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\omorfias\API.Omorfias.Data\obj\Release\netcoreapp3.1\API.Omorfias.Data.AssemblyInfo.cs
+C:\Users\Dell\source\repos\omorfias\API.Omorfias.Data\obj\Release\netcoreapp3.1\API.Omorfias.Data.csproj.CopyComplete
+C:\Users\Dell\source\repos\omorfias\API.Omorfias.Data\obj\Release\netcoreapp3.1\API.Omorfias.Data.dll
+C:\Users\Dell\source\repos\omorfias\API.Omorfias.Data\obj\Release\netcoreapp3.1\API.Omorfias.Data.pdb

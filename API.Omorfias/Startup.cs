@@ -4,9 +4,12 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using API.Omorfias.AppServices.Interfaces;
 using API.Omorfias.AppServices.Profiles.Omorfias;
+using API.Omorfias.AppServices.Services;
 using API.Omorfias.Data.Base;
 using API.Omorfias.Data.Interfaces;
+using API.Omorfias.Data.Repositories;
 using API.Omorfias.Data.Repositories.Core;
 using API.Omorfias.Domain.Base.Configuration;
 using API.Omorfias.Domain.Base.Events;
@@ -16,6 +19,8 @@ using API.Omorfias.Domain.Base.Services;
 using API.Omorfias.Domain.Handler;
 using API.Omorfias.Domain.Interfaces.Configuracoes;
 using API.Omorfias.Domain.Interfaces.Services;
+using API.Omorfias.Domain.Users.Interfaces;
+using API.Omorfias.Domain.Users.Services;
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -96,7 +101,7 @@ namespace API.Omorfias
 
             services.AddDbContext<OmorfiasContext>(options =>
             {
-                options.UseSqlServer(gerenciadorDeConfiguracoes.ObterValor<string>("OmorfiasSQL"), sqlServerOptions => sqlServerOptions.CommandTimeout(gerenciadorDeConfiguracoes.ObterValor<int>("BancoTimeout")));
+                options.UseSqlServer(gerenciadorDeConfiguracoes.ObterValor<string>("OmorfiasSQL"));
                 options.EnableSensitiveDataLogging();
                 options.EnableDetailedErrors();
                 options.UseLoggerFactory(OmorfiasContext.LoggerFactory);
@@ -114,6 +119,9 @@ namespace API.Omorfias
             services.AddTransient(typeof(IGerenciadorDeConfiguracoes), typeof(GerenciadorDeConfiguracoes));
             services.AddTransient(typeof(IService<,>), typeof(Service<,>));
             services.AddTransient(typeof(IRepository<,>), typeof(Repository<,>));
+            services.AddTransient<IUsersAppService, UsersAppService>();
+            services.AddTransient<IUsersServices, UsersServices>();
+            services.AddTransient<IUsersRepository, UsersRepository>();
         }
         private static void AdicionarAssembliesParaAutoMapper(IServiceCollection services)
         {
