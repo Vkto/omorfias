@@ -13,5 +13,16 @@ namespace API.Omorfias.AppServices.Interfaces
         /// </summary>
         /// <returns></returns>
         UsersOutputDto ObterPorId(int id);
+        IEnumerable<UsersOutputDto> ObterTodos();
+        /// <summary>
+        /// Inclui usuário na base
+        /// <paramref name="id"/>
+        /// </summary>
+        /// <returns></returns>
+        UsersInputDto Incluir(UsersInputDto user);
+
+        UsersInputDto Modificar(UsersInputDto usuario);
+
+        UsersInputDto Excluir(UsersInputDto usuario);
     }
 }

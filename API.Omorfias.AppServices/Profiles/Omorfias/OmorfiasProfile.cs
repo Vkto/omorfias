@@ -12,6 +12,7 @@ namespace API.Omorfias.AppServices.Profiles.Omorfias
         public OmorfiasProfile()
         {
             CreateMap<UsersOutputDto, User>().ReverseMap();
+            CreateMap<UsersInputDto, User>().ReverseMap();
         }
     }
 }

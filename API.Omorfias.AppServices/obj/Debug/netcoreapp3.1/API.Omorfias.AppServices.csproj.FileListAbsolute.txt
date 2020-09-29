@@ -42,6 +42,7 @@ C:\Users\Dell\source\repos\omorfias\API.Omorfias.AppServices\obj\Debug\netcoreap
 C:\Users\Dell\source\repos\omorfias\API.Omorfias.AppServices\obj\Debug\netcoreapp3.1\API.Omorfias.AppServices.csproj.GenerateResource.cache
 C:\Users\Dell\source\repos\omorfias\API.Omorfias.AppServices\obj\Debug\netcoreapp3.1\API.Omorfias.AppServices.AssemblyInfoInputs.cache
 C:\Users\Dell\source\repos\omorfias\API.Omorfias.AppServices\obj\Debug\netcoreapp3.1\API.Omorfias.AppServices.AssemblyInfo.cs
+C:\Users\Dell\source\repos\omorfias\API.Omorfias.AppServices\obj\Debug\netcoreapp3.1\API.Omorfias.AppServices.csproj.CoreCompileInputs.cache
 C:\Users\Dell\source\repos\omorfias\API.Omorfias.AppServices\obj\Debug\netcoreapp3.1\API.Omorfias.AppServices.csproj.CopyComplete
 C:\Users\Dell\source\repos\omorfias\API.Omorfias.AppServices\obj\Debug\netcoreapp3.1\API.Omorfias.AppServices.dll
 C:\Users\Dell\source\repos\omorfias\API.Omorfias.AppServices\obj\Debug\netcoreapp3.1\API.Omorfias.AppServices.pdb

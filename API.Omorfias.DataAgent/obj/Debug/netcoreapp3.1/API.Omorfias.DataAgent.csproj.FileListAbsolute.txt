@@ -18,6 +18,7 @@ C:\Users\Dell\source\repos\omorfias\API.Omorfias.DataAgent\bin\Debug\netcoreapp3
 C:\Users\Dell\source\repos\omorfias\API.Omorfias.DataAgent\obj\Debug\netcoreapp3.1\API.Omorfias.DataAgent.csprojAssemblyReference.cache
 C:\Users\Dell\source\repos\omorfias\API.Omorfias.DataAgent\obj\Debug\netcoreapp3.1\API.Omorfias.DataAgent.AssemblyInfoInputs.cache
 C:\Users\Dell\source\repos\omorfias\API.Omorfias.DataAgent\obj\Debug\netcoreapp3.1\API.Omorfias.DataAgent.AssemblyInfo.cs
+C:\Users\Dell\source\repos\omorfias\API.Omorfias.DataAgent\obj\Debug\netcoreapp3.1\API.Omorfias.DataAgent.csproj.CoreCompileInputs.cache
 C:\Users\Dell\source\repos\omorfias\API.Omorfias.DataAgent\obj\Debug\netcoreapp3.1\API.Omorfias.DataAgent.csproj.CopyComplete
 C:\Users\Dell\source\repos\omorfias\API.Omorfias.DataAgent\obj\Debug\netcoreapp3.1\API.Omorfias.DataAgent.dll
 C:\Users\Dell\source\repos\omorfias\API.Omorfias.DataAgent\obj\Debug\netcoreapp3.1\API.Omorfias.DataAgent.pdb
