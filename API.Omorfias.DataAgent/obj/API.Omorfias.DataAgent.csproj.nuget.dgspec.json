@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.DataAgent\\API.Omorfias.DataAgent.csproj": {}
+    "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.DataAgent\\API.Omorfias.DataAgent.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.DataAgent\\API.Omorfias.DataAgent.csproj": {
+    "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.DataAgent\\API.Omorfias.DataAgent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.DataAgent\\API.Omorfias.DataAgent.csproj",
+        "projectUniqueName": "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.DataAgent\\API.Omorfias.DataAgent.csproj",
         "projectName": "API.Omorfias.DataAgent",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.DataAgent\\API.Omorfias.DataAgent.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.DataAgent\\obj\\",
+        "projectPath": "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.DataAgent\\API.Omorfias.DataAgent.csproj",
+        "packagesPath": "C:\\Users\\PICHAU\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.DataAgent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PICHAU\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj": {
-                "projectPath": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj"
+              "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj": {
+                "projectPath": "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj"
               }
             }
           }
@@ -56,21 +56,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj": {
+    "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj",
         "projectName": "API.Omorfias.Domain",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\omorfias\\API.Omorfias.Domain\\obj\\",
+        "projectPath": "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj",
+        "packagesPath": "C:\\Users\\PICHAU\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PICHAU\\source\\repos\\API.Omorfias\\API.Omorfias.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PICHAU\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -114,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

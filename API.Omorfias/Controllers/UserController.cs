@@ -26,5 +26,26 @@ namespace API.Omorfias.Controllers
 
             return retorno;
         }
+        [HttpPost]
+        [Route("incluir")]
+        public DataResultsDto<UsersInputDto> Incluir(UsersInputDto usuario)
+        {
+           return ResponseResult(_usersAppServices.Incluir(usuario));
+
+        }
+        [HttpPost]
+        [Route("modificar")]
+        public DataResultsDto<UsersInputDto> Modificar(UsersInputDto usuario)
+        {
+            return ResponseResult(_usersAppServices.Modificar(usuario));
+
+        }
+        [HttpDelete]
+        [Route("excluir")]
+        public DataResultsDto<UsersInputDto> Excluir(UsersInputDto usuario)
+        {
+            return ResponseResult(_usersAppServices.Excluir(usuario));
+
+        }
     }
 }

@@ -4,7 +4,9 @@ using API.Omorfias.Data.Interfaces;
 using API.Omorfias.Domain.Base.Events;
 using API.Omorfias.Domain.Base.Interfaces;
 using API.Omorfias.Domain.Interfaces.Services;
+using API.Omorfias.Domain.Models;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore.Internal;
 
 namespace API.Omorfias.AppServices.Services
 {
@@ -21,9 +23,64 @@ namespace API.Omorfias.AppServices.Services
 
         public UsersOutputDto ObterPorId(int id)
         {
-            var arroz = this._usersService.ObterTodos();
             var retorno = this._usersService.ObterPorId(1);
+
+            if (retorno == null)
+            {
+                _notifications.Handle(new DomainNotification(string.Empty, string.Format(Messages.Messages.UsuarioNaoEncontrado, id.ToString())));
+            }
+
             return _mapper.Map<UsersOutputDto>(retorno);
+        }
+        public UsersOutputDto ObterTodos()
+        {
+            var retorno = this._usersService.ObterTodos();
+
+            if (!retorno.Any())
+            {
+                _notifications.Handle(new DomainNotification(string.Empty, string.Format(Messages.Messages.UsuarioNaoEncontrado)));
+            }
+
+            return _mapper.Map<UsersOutputDto>(retorno);
+        }
+        public UsersInputDto Incluir(UsersInputDto usuario)
+        {
+            try
+            {
+                this._usersService.Adicionar(_mapper.Map<User>(usuario));
+            }
+            catch (System.Exception ex)
+            {
+                _notifications.Handle(new DomainNotification(string.Empty, ex.Message));
+            }
+
+            return usuario;
+        }
+        public UsersInputDto Modificar(UsersInputDto usuario)
+        {
+            try
+            {
+                this._usersService.Modificar(_mapper.Map<User>(usuario));
+            }
+            catch (System.Exception ex)
+            {
+                _notifications.Handle(new DomainNotification(string.Empty, ex.Message));
+            }
+
+            return usuario;
+        }
+        public UsersInputDto Excluir(UsersInputDto usuario)
+        {
+            try
+            {
+                this._usersService.Remover(_mapper.Map<User>(usuario));
+            }
+            catch (System.Exception ex)
+            {
+                _notifications.Handle(new DomainNotification(string.Empty, ex.Message));
+            }
+
+            return usuario;
         }
     }
 }

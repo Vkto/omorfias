@@ -2,6 +2,6 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ShowAllFiles>true</ShowAllFiles>
-    <NameOfLastUsedPublishProfile>APIOmorfias - Web Deploy</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>APIOmorfias - Web Deploy1</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
