@@ -26,6 +26,15 @@ namespace API.Omorfias.Controllers
 
             return retorno;
         }
+        [HttpGet]
+        [Route("obter")]
+        public DataResultsDto<UsersOutputDto> ObterTodos()
+        {
+
+            var retorno = ResponseResult(_usersAppServices.ObterTodos());
+
+            return retorno;
+        }
         [HttpPost]
         [Route("incluir")]
         public DataResultsDto<UsersInputDto> Incluir(UsersInputDto usuario)

@@ -45,3 +45,4 @@ C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias.AppServices\obj\Release\n
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias.AppServices\obj\Release\netcoreapp3.1\API.Omorfias.AppServices.csproj.CopyComplete
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias.AppServices\obj\Release\netcoreapp3.1\API.Omorfias.AppServices.dll
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias.AppServices\obj\Release\netcoreapp3.1\API.Omorfias.AppServices.pdb
+C:\Users\Dell\source\repos\omorfias\API.Omorfias.AppServices\obj\Release\netcoreapp3.1\API.Omorfias.AppServices.csproj.CoreCompileInputs.cache

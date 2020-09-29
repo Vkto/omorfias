@@ -1,8 +1,3 @@
-C:\Users\Dell\source\repos\omorfias\API.Omorfias\bin\Release\netcoreapp3.1\API.Omorfias\web.config
-C:\Users\Dell\source\repos\omorfias\API.Omorfias\bin\Release\netcoreapp3.1\API.Omorfias\API.Omorfias.deps.json
-C:\Users\Dell\source\repos\omorfias\API.Omorfias\bin\Release\netcoreapp3.1\API.Omorfias\API.Omorfias.runtimeconfig.json
-C:\Users\Dell\source\repos\omorfias\API.Omorfias\bin\Release\netcoreapp3.1\API.Omorfias\appsettings.Development.json
-C:\Users\Dell\source\repos\omorfias\API.Omorfias\bin\Release\netcoreapp3.1\API.Omorfias\appsettings.json
 C:\Users\Dell\source\repos\omorfias\API.Omorfias\bin\Release\netcoreapp3.1\appsettings.Development.json
 C:\Users\Dell\source\repos\omorfias\API.Omorfias\bin\Release\netcoreapp3.1\appsettings.json
 C:\Users\Dell\source\repos\omorfias\API.Omorfias\bin\Release\netcoreapp3.1\Properties\launchSettings.json
@@ -161,3 +156,4 @@ C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Release\netcoreapp3.1
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Release\netcoreapp3.1\API.Omorfias.dll
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Release\netcoreapp3.1\API.Omorfias.pdb
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias\obj\Release\netcoreapp3.1\API.Omorfias.genruntimeconfig.cache
+C:\Users\Dell\source\repos\omorfias\API.Omorfias\obj\Release\netcoreapp3.1\API.Omorfias.csproj.CoreCompileInputs.cache

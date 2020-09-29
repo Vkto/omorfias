@@ -24,3 +24,4 @@ C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias.Domain\obj\Release\netcor
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias.Domain\obj\Release\netcoreapp3.1\API.Omorfias.Domain.AssemblyInfo.cs
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias.Domain\obj\Release\netcoreapp3.1\API.Omorfias.Domain.dll
 C:\Users\PICHAU\source\repos\API.Omorfias\API.Omorfias.Domain\obj\Release\netcoreapp3.1\API.Omorfias.Domain.pdb
+C:\Users\Dell\source\repos\omorfias\API.Omorfias.Domain\obj\Release\netcoreapp3.1\API.Omorfias.Domain.csproj.CoreCompileInputs.cache

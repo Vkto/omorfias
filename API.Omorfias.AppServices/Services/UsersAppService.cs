@@ -7,6 +7,7 @@ using API.Omorfias.Domain.Interfaces.Services;
 using API.Omorfias.Domain.Models;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore.Internal;
+using System.Collections.Generic;
 
 namespace API.Omorfias.AppServices.Services
 {
@@ -23,7 +24,7 @@ namespace API.Omorfias.AppServices.Services
 
         public UsersOutputDto ObterPorId(int id)
         {
-            var retorno = this._usersService.ObterPorId(1);
+            var retorno = this._usersService.ObterPorId(id);
 
             if (retorno == null)
             {
@@ -32,7 +33,7 @@ namespace API.Omorfias.AppServices.Services
 
             return _mapper.Map<UsersOutputDto>(retorno);
         }
-        public UsersOutputDto ObterTodos()
+        public IEnumerable<UsersOutputDto> ObterTodos()
         {
             var retorno = this._usersService.ObterTodos();
 
@@ -41,18 +42,20 @@ namespace API.Omorfias.AppServices.Services
                 _notifications.Handle(new DomainNotification(string.Empty, string.Format(Messages.Messages.UsuarioNaoEncontrado)));
             }
 
-            return _mapper.Map<UsersOutputDto>(retorno);
+            return _mapper.Map<IEnumerable<UsersOutputDto>>(retorno);
         }
         public UsersInputDto Incluir(UsersInputDto usuario)
         {
             try
             {
                 this._usersService.Adicionar(_mapper.Map<User>(usuario));
+                Commit();
             }
             catch (System.Exception ex)
             {
                 _notifications.Handle(new DomainNotification(string.Empty, ex.Message));
             }
+
 
             return usuario;
         }
@@ -61,6 +64,7 @@ namespace API.Omorfias.AppServices.Services
             try
             {
                 this._usersService.Modificar(_mapper.Map<User>(usuario));
+                Commit();
             }
             catch (System.Exception ex)
             {
@@ -74,6 +78,7 @@ namespace API.Omorfias.AppServices.Services
             try
             {
                 this._usersService.Remover(_mapper.Map<User>(usuario));
+                Commit();
             }
             catch (System.Exception ex)
             {
