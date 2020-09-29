@@ -8,6 +8,7 @@ namespace API.Omorfias.Data.Mapping
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
+
             builder.ToTable("User");
 
             builder.HasKey(p => p.Id);
@@ -17,7 +18,6 @@ namespace API.Omorfias.Data.Mapping
 
             builder.Ignore(t => t.ValidationResult);
             builder.Ignore(t => t.IsValid);
-            
 
         }
     }

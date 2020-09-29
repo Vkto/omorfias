@@ -47,7 +47,8 @@ namespace API.Omorfias
         {
             var configuracoes = new ConfigurationBuilder()
                                      .SetBasePath(Directory.GetCurrentDirectory())
-                                     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                                     .AddJsonFile("appsettings.Development.json", optional: false, reloadOnChange: true)
+                                     //.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                                      .Build();
             configuracoes.Reload();
 
@@ -101,7 +102,9 @@ namespace API.Omorfias
 
             services.AddDbContext<OmorfiasContext>(options =>
             {
-                options.UseSqlServer(gerenciadorDeConfiguracoes.ObterValor<string>("OmorfiasSQL"));
+                string connectionString = gerenciadorDeConfiguracoes.ObterValor<string>("OmorfiasSQL");
+                //options.UseSqlServer(connectionString, b => b.MigrationsAssembly("API.Omorfias"));
+                options.UseNpgsql(connectionString, b => b.MigrationsAssembly("API.Omorfias"));
                 options.EnableSensitiveDataLogging();
                 options.EnableDetailedErrors();
                 options.UseLoggerFactory(OmorfiasContext.LoggerFactory);

@@ -1,0 +1,11 @@
+version: '3'
+services:
+  omorfias_db:
+    image: postgres:11.2-alpine
+    restart: always
+    ports:
+      - '4444:4444'
+    environment:
+      POSTGRES_DB: omorfias_db
+      POSTGRES_PASSWORD: '123456'
+      PGPORT: 4444
