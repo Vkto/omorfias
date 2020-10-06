@@ -1,0 +1,8 @@
+C:\Users\PICHAU\Source\Repos\omorfias\API.Omorfias.Domain\bin\Debug\netcoreapp3.1\API.Omorfias.Domain.deps.json
+C:\Users\PICHAU\Source\Repos\omorfias\API.Omorfias.Domain\bin\Debug\netcoreapp3.1\API.Omorfias.Domain.dll
+C:\Users\PICHAU\Source\Repos\omorfias\API.Omorfias.Domain\bin\Debug\netcoreapp3.1\API.Omorfias.Domain.pdb
+C:\Users\PICHAU\Source\Repos\omorfias\API.Omorfias.Domain\obj\Debug\netcoreapp3.1\API.Omorfias.Domain.csproj.CoreCompileInputs.cache
+C:\Users\PICHAU\Source\Repos\omorfias\API.Omorfias.Domain\obj\Debug\netcoreapp3.1\API.Omorfias.Domain.AssemblyInfoInputs.cache
+C:\Users\PICHAU\Source\Repos\omorfias\API.Omorfias.Domain\obj\Debug\netcoreapp3.1\API.Omorfias.Domain.AssemblyInfo.cs
+C:\Users\PICHAU\Source\Repos\omorfias\API.Omorfias.Domain\obj\Debug\netcoreapp3.1\API.Omorfias.Domain.dll
+C:\Users\PICHAU\Source\Repos\omorfias\API.Omorfias.Domain\obj\Debug\netcoreapp3.1\API.Omorfias.Domain.pdb

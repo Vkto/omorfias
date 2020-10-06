@@ -3,6 +3,7 @@ using API.Omorfias.AppServices.Interfaces;
 using API.Omorfias.Data.Interfaces;
 using API.Omorfias.Data.Models;
 using API.Omorfias.DataAgent.Interfaces;
+using API.Omorfias.Domain.Users.Interfaces;
 using API.Omorfias.Operations.Interfaces;
 using AutoMapper;
 
@@ -12,13 +13,13 @@ namespace API.Omorfias.AppServices.Services
     {
         private readonly IMapper _mapper;
         private readonly ICryptyService _cryptyService;
-        private readonly IUsersRepository _usersRepository;
+        private readonly IAuthRepository _authRepository;
         private readonly IDataAgentService _dataAgent;
-        public AuthAppService(ICryptyService cryptyService, IMapper mapper, IUsersRepository usersRepository, IDataAgentService dataAgent)
+        public AuthAppService(ICryptyService cryptyService, IMapper mapper, IAuthRepository authRepository, IDataAgentService dataAgent)
         {
             _cryptyService = cryptyService;
             _mapper = mapper;
-            _usersRepository = usersRepository;
+            _authRepository = authRepository;
             _dataAgent = dataAgent;
         }
         public AuthOutputDto Login(AuthInputDto login)
@@ -26,7 +27,7 @@ namespace API.Omorfias.AppServices.Services
 
             string passwordHashed = _cryptyService.GenerateHashKey(login.Password);
 
-            User userLoged = _usersRepository.FindByEmail(login.Email);
+            User userLoged = _authRepository.FindByEmail(login.Email);
 
             string token = _dataAgent.GenerateToken(userLoged);
             return _mapper.Map<AuthOutputDto>(new { Token = token, User = userLoged });

@@ -7,7 +7,7 @@ namespace API.Omorfias.Domain.Users.Interfaces
 {
     public interface IUsersRepository
     {
-        User GetById(int id);
-        User FindUser(User userData);
+        //User GetById(int id);
+        //User FindUser(User userData);
     }
 }

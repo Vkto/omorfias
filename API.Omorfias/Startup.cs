@@ -6,10 +6,7 @@ using System.Text;
 using API.Omorfias.AppServices.Interfaces;
 using API.Omorfias.AppServices.Profiles.Omorfias;
 using API.Omorfias.AppServices.Services;
-using API.Omorfias.Data.Base;
-using API.Omorfias.Data.Interfaces;
-using API.Omorfias.Data.Repositories;
-using API.Omorfias.Data.Repositories.Core;
+
 using API.Omorfias.DataAgent.Interfaces;
 using API.Omorfias.Domain.Base.Configuration;
 using API.Omorfias.Domain.Base.Events;
@@ -32,6 +29,12 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using API.Omorfias.DataAgent.Services;
+using API.Omorfias.Domain.Users.Services;
+using API.Omorfias.Domain.Users.Interfaces;
+using API.Omorfias.Data.Repositories;
+using API.Omorfias.Data.Repositories.Core;
+using API.Omorfias.Data.Base;
+using API.Omorfias.Data.Interfaces;
 
 namespace API.Omorfias
 {
@@ -49,7 +52,7 @@ namespace API.Omorfias
         {
             var configuracoes = new ConfigurationBuilder()
                                      .SetBasePath(Directory.GetCurrentDirectory())
-                                     .AddJsonFile("appsettings.Development.json", optional: false, reloadOnChange: true)
+                                     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                                      //.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                                      .Build();
             configuracoes.Reload();
@@ -76,7 +79,6 @@ namespace API.Omorfias
                     ValidateAudience = false
                 };
             });
-
 
 
             services.AddControllers();
@@ -128,8 +130,8 @@ namespace API.Omorfias
             services.AddDbContext<OmorfiasContext>(options =>
             {
                 string connectionString = gerenciadorDeConfiguracoes.ObterValor<string>("OmorfiasSQL");
-                //options.UseSqlServer(connectionString, b => b.MigrationsAssembly("API.Omorfias"));
-                options.UseNpgsql(connectionString, b => b.MigrationsAssembly("API.Omorfias"));
+                options.UseSqlServer(connectionString, b => b.MigrationsAssembly("API.Omorfias"));
+                //options.UseNpgsql(connectionString, b => b.MigrationsAssembly("API.Omorfias"));
                 options.EnableSensitiveDataLogging();
                 options.EnableDetailedErrors();
                 options.UseLoggerFactory(OmorfiasContext.LoggerFactory);
@@ -147,12 +149,13 @@ namespace API.Omorfias
             services.AddTransient(typeof(IGerenciadorDeConfiguracoes), typeof(GerenciadorDeConfiguracoes));
             services.AddTransient(typeof(IService<,>), typeof(Service<,>));
             services.AddTransient(typeof(IRepository<,>), typeof(Repository<,>));
-            // services.AddTransient<IUsersAppService, UsersAppService>();
-            // services.AddTransient<IUsersServices, UsersServices>();
+            services.AddTransient<IUsersAppService, UsersAppService>();
+            services.AddTransient<IUsersServices, UsersServices>();
             services.AddTransient<IAuthAppService, AuthAppService>();
             services.AddTransient<IUsersRepository, UsersRepository>();
             services.AddTransient<ICryptyService, CryptyService>();
             services.AddTransient<IDataAgentService, DataAgentService>();
+            services.AddTransient<IAuthRepository, AuthRepository>();
 
         }
         private static void AdicionarAssembliesParaAutoMapper(IServiceCollection services)

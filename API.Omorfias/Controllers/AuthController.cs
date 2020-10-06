@@ -10,16 +10,15 @@ using Microsoft.AspNetCore.Mvc;
 namespace API.Omorfias.Controllers
 {
     [Route("[controller]")]
-    public class AuthController : ControllerBase
+    public class AuthController : ApiBaseController
     {
         private readonly IAuthAppService _authAppService;
-        public AuthController(IAuthAppService authAppService) 
+        public AuthController(IHandler<DomainNotification> notifications, IAuthAppService authAppService) : base(notifications)
         {
             this._authAppService = authAppService;
         }
 
         [HttpPost]
-        [Route("")]
         public ActionResult<AuthOutputDto> Login(AuthInputDto login)
         {
 
