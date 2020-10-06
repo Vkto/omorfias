@@ -1,9 +1,8 @@
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
+using System.Text;
 using API.Omorfias.AppServices.Interfaces;
 using API.Omorfias.AppServices.Profiles.Omorfias;
 using API.Omorfias.AppServices.Services;
@@ -11,6 +10,7 @@ using API.Omorfias.Data.Base;
 using API.Omorfias.Data.Interfaces;
 using API.Omorfias.Data.Repositories;
 using API.Omorfias.Data.Repositories.Core;
+using API.Omorfias.DataAgent.Interfaces;
 using API.Omorfias.Domain.Base.Configuration;
 using API.Omorfias.Domain.Base.Events;
 using API.Omorfias.Domain.Base.Interfaces;
@@ -19,17 +19,19 @@ using API.Omorfias.Domain.Base.Services;
 using API.Omorfias.Domain.Handler;
 using API.Omorfias.Domain.Interfaces.Configuracoes;
 using API.Omorfias.Domain.Interfaces.Services;
-using API.Omorfias.Domain.Users.Interfaces;
-using API.Omorfias.Domain.Users.Services;
+using API.Omorfias.Operations.Interfaces;
+using API.Omorfias.Operations.Services;
 using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using API.Omorfias.DataAgent.Services;
 
 namespace API.Omorfias
 {
@@ -54,6 +56,28 @@ namespace API.Omorfias
 
             InicializarConfiguracoes(configuracoes, out IGerenciadorDeConfiguracoes gerenciadorDeConfiguracoes);
             AdicionarAssembliesParaAutoMapper(services);
+
+            var key = Encoding.ASCII.GetBytes("SECRET");
+            services.AddAuthentication(s =>
+            {
+                s.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                s.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+            }).AddJwtBearer(jwt =>
+            {
+
+                jwt.RequireHttpsMetadata = false;
+                jwt.SaveToken = true;
+                jwt.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = false,
+                    ValidateAudience = false
+                };
+            });
+
+
 
             services.AddControllers();
 
@@ -81,6 +105,7 @@ namespace API.Omorfias
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -122,9 +147,13 @@ namespace API.Omorfias
             services.AddTransient(typeof(IGerenciadorDeConfiguracoes), typeof(GerenciadorDeConfiguracoes));
             services.AddTransient(typeof(IService<,>), typeof(Service<,>));
             services.AddTransient(typeof(IRepository<,>), typeof(Repository<,>));
-            services.AddTransient<IUsersAppService, UsersAppService>();
-            services.AddTransient<IUsersServices, UsersServices>();
+            // services.AddTransient<IUsersAppService, UsersAppService>();
+            // services.AddTransient<IUsersServices, UsersServices>();
+            services.AddTransient<IAuthAppService, AuthAppService>();
             services.AddTransient<IUsersRepository, UsersRepository>();
+            services.AddTransient<ICryptyService, CryptyService>();
+            services.AddTransient<IDataAgentService, DataAgentService>();
+
         }
         private static void AdicionarAssembliesParaAutoMapper(IServiceCollection services)
         {
