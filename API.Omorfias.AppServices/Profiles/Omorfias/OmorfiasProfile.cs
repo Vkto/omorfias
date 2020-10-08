@@ -1,5 +1,6 @@
 ﻿using API.Omorfias.AppServices.Dto.Login;
 using API.Omorfias.AppServices.Dto.Users;
+using API.Omorfias.Data.Models;
 using API.Omorfias.Domain.Models;
 using AutoMapper;
 
@@ -10,8 +11,8 @@ namespace API.Omorfias.AppServices.Profiles.Omorfias
         public OmorfiasProfile()
         {
             CreateMap<UsersOutputDto, User>().ReverseMap();
-            CreateMap<UsersInputDto, User>().ReverseMap();
-            CreateMap<AuthInputDto, Login>().ReverseMap();
+            CreateMap<UsersInputDto, UserDomain>().ReverseMap();
+            CreateMap<AuthInputDto, LoginDomain>().ReverseMap();
         }
     }
 }

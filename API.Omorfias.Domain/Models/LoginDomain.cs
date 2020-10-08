@@ -4,7 +4,7 @@ using System.Text;
 
 namespace API.Omorfias.Domain.Models
 {
-    public class Login
+    public class LoginDomain
     {
 
         public string Email { get; set; }

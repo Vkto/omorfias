@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PICHAU\\Source\\Repos\\omorfias\\API.Omorfias.Data\\API.Omorfias.Data.csproj": {}
+    "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.Data\\API.Omorfias.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PICHAU\\Source\\Repos\\omorfias\\API.Omorfias.Data\\API.Omorfias.Data.csproj": {
+    "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.Data\\API.Omorfias.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PICHAU\\Source\\Repos\\omorfias\\API.Omorfias.Data\\API.Omorfias.Data.csproj",
+        "projectUniqueName": "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.Data\\API.Omorfias.Data.csproj",
         "projectName": "API.Omorfias.Data",
-        "projectPath": "C:\\Users\\PICHAU\\Source\\Repos\\omorfias\\API.Omorfias.Data\\API.Omorfias.Data.csproj",
-        "packagesPath": "C:\\Users\\PICHAU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PICHAU\\Source\\Repos\\omorfias\\API.Omorfias.Data\\obj\\",
+        "projectPath": "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.Data\\API.Omorfias.Data.csproj",
+        "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
+        "outputPath": "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PICHAU\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Christian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\PICHAU\\Source\\Repos\\omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj": {
-                "projectPath": "C:\\Users\\PICHAU\\Source\\Repos\\omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj"
+              "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj": {
+                "projectPath": "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj"
               }
             }
           }
@@ -84,21 +84,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PICHAU\\Source\\Repos\\omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj": {
+    "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PICHAU\\Source\\Repos\\omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj",
+        "projectUniqueName": "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj",
         "projectName": "API.Omorfias.Domain",
-        "projectPath": "C:\\Users\\PICHAU\\Source\\Repos\\omorfias\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj",
-        "packagesPath": "C:\\Users\\PICHAU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PICHAU\\Source\\Repos\\omorfias\\API.Omorfias.Domain\\obj\\",
+        "projectPath": "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj",
+        "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
+        "outputPath": "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PICHAU\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Christian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -142,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

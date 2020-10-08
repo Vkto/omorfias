@@ -48,7 +48,7 @@ namespace API.Omorfias.AppServices.Services
         {
             try
             {
-                this._usersService.Adicionar(_mapper.Map<User>(usuario));
+                this._usersService.Adicionar(_mapper.Map<UserDomain>(usuario));
                 Commit();
             }
             catch (System.Exception ex)
@@ -63,7 +63,7 @@ namespace API.Omorfias.AppServices.Services
         {
             try
             {
-                this._usersService.Modificar(_mapper.Map<User>(usuario));
+                this._usersService.Modificar(_mapper.Map<UserDomain>(usuario));
                 Commit();
             }
             catch (System.Exception ex)
@@ -77,7 +77,7 @@ namespace API.Omorfias.AppServices.Services
         {
             try
             {
-                this._usersService.Remover(_mapper.Map<User>(usuario));
+                this._usersService.Remover(_mapper.Map<UserDomain>(usuario));
                 Commit();
             }
             catch (System.Exception ex)

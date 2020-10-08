@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using API.Omorfias.Operations.Interfaces;
 using System;
-using System.Security.Cryptography;
 
 namespace API.Omorfias.Operations.Services
 {
@@ -10,8 +9,6 @@ namespace API.Omorfias.Operations.Services
         public string GenerateHashKey(string value)
         {
             byte[] salt = new byte[128 / 8];
-            RandomNumberGenerator rng = RandomNumberGenerator.Create();
-            rng.GetBytes(salt);
 
             string hashed = Convert.ToBase64String(KeyDerivation.Pbkdf2(
             password: value,

@@ -11,12 +11,12 @@ namespace API.Omorfias.DataAgent.Services
 {
     public class DataAgentService : IDataAgentService
     {
-        private readonly string _accessToken = "SECRET";
+        private readonly string _accessToken = "SECRETSECRETSECRETSECRETSECRETSECRETSECRET";
 
         public string GenerateToken(User user)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(_accessToken);
+            var key = Encoding.UTF8.GetBytes(_accessToken);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]

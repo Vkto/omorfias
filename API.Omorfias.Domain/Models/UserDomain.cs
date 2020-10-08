@@ -6,10 +6,12 @@ using System.Text;
 
 namespace API.Omorfias.Domain.Models
 {
-    public class User : ISelfValidation
+    public class UserDomain : ISelfValidation
     {
         public int Id { get; set; }
-        public string Nome { get; set; }
+        public string Name { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
 
         public ValidationResult ValidationResult { get; private set; }
         public bool IsValid

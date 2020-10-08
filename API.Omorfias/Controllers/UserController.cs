@@ -4,6 +4,7 @@ using API.Omorfias.AppServices.Interfaces;
 using API.Omorfias.Controllers.Base;
 using API.Omorfias.Domain.Base.Events;
 using API.Omorfias.Domain.Base.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Omorfias.Controllers
@@ -19,9 +20,10 @@ namespace API.Omorfias.Controllers
         }
         [HttpGet]
         [Route("obter/{id}")]
+        [Authorize]
         public DataResultsDto<UsersOutputDto> ObterUser(int id)
         {
-
+            
             var retorno = ResponseResult(_usersAppServices.ObterPorId(id));
 
             return retorno;

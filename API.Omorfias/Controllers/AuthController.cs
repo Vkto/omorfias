@@ -1,10 +1,10 @@
 ﻿using System;
-using API.Omorfias.AppServices.Dto.Base;
 using API.Omorfias.AppServices.Dto.Login;
 using API.Omorfias.AppServices.Interfaces;
 using API.Omorfias.Controllers.Base;
 using API.Omorfias.Domain.Base.Events;
 using API.Omorfias.Domain.Base.Interfaces;
+using API.Omorfias.Domain.Handler;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Omorfias.Controllers
@@ -30,8 +30,17 @@ namespace API.Omorfias.Controllers
             }
             catch (Exception er)
             {
-                throw er;
+                ErrorAction error = new ErrorAction(1, er.Message);
+                return Unauthorized(error);
             }
         }
+
+        //    [Authorize]
+        //    [HttpPost]
+        //    [Route("/logout")]
+        //    public ActionResult<dynamic> LogOut()
+        //    {
+        //        return User.FindFirst("lastName").Value;
+        //    }
     }
 }
