@@ -1,5 +1,6 @@
 ﻿using System;
 using API.Omorfias.AppServices.Dto.Login;
+using API.Omorfias.AppServices.Dto.Users;
 using API.Omorfias.AppServices.Interfaces;
 using API.Omorfias.Controllers.Base;
 using API.Omorfias.Domain.Base.Events;
@@ -10,6 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace API.Omorfias.Controllers
 {
     [Route("[controller]")]
+    [ApiController]
     public class AuthController : ApiBaseController
     {
         private readonly IAuthAppService _authAppService;
@@ -28,10 +30,28 @@ namespace API.Omorfias.Controllers
 
                 return Ok(tokenAcesso);
             }
-            catch (Exception er)
+            catch (ErrorAction error)
             {
-                ErrorAction error = new ErrorAction(1, er.Message);
-                return Unauthorized(error);
+                var err = BadRequest(new { error.Text, error.Status });
+                return err;
+            }
+        }
+
+        [HttpPost]
+        [Route("/register")]
+        public ActionResult<AuthOutputDto> Register(UsersInputDto user)
+        {
+
+            try
+            {
+                AuthOutputDto tokenAcesso = _authAppService.Register(user);
+
+                return Ok(tokenAcesso);
+            }
+            catch (ErrorAction error)
+            {
+                var err = BadRequest(new { error.Text, error.Status });
+                return err;
             }
         }
 

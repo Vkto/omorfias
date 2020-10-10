@@ -1,12 +1,11 @@
 ﻿using API.Omorfias.AppServices.Dto.Login;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using API.Omorfias.AppServices.Dto.Users;
 
 namespace API.Omorfias.AppServices.Interfaces
 {
     public interface IAuthAppService
     {
         AuthOutputDto Login(AuthInputDto login);
+        AuthOutputDto Register(UsersInputDto user);
     }
 }

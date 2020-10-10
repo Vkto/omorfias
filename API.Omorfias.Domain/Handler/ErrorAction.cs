@@ -1,14 +1,16 @@
-﻿namespace API.Omorfias.Domain.Handler
-{
-    public class ErrorAction
-    {
-        public int _Status;
-        public string _Message;
+﻿using System;
 
-        public ErrorAction(int status, string message)
+namespace API.Omorfias.Domain.Handler
+{
+    public class ErrorAction : Exception
+    {
+        public int Status;
+        public string Text;
+
+        public ErrorAction(int status, string text)
         {
-            _Status = status;
-            _Message = message;
+            Status = status;
+            Text = text;
         }
     }
 }

@@ -61,6 +61,15 @@ namespace API.Omorfias.AppServices.Messages {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to O campo {0} é obrigatorio.
+        /// </summary>
+        internal static string CampoObrigatorio {
+            get {
+                return ResourceManager.GetString("CampoObrigatorio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to O Usuário {0} não foi encontrado..
         /// </summary>
         internal static string UsuarioNaoEncontrado {

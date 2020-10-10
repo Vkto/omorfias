@@ -166,9 +166,6 @@ F:\Projetos\omorfias\omorfias.api\API.Omorfias\bin\Debug\netcoreapp3.1\API.Omorf
 F:\Projetos\omorfias\omorfias.api\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.csprojAssemblyReference.cache
 F:\Projetos\omorfias\omorfias.api\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.AssemblyInfoInputs.cache
 F:\Projetos\omorfias\omorfias.api\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.AssemblyInfo.cs
-F:\Projetos\omorfias\omorfias.api\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.csproj.CoreCompileInputs.cache
-F:\Projetos\omorfias\omorfias.api\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.MvcApplicationPartsAssemblyInfo.cs
-F:\Projetos\omorfias\omorfias.api\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.MvcApplicationPartsAssemblyInfo.cache
 F:\Projetos\omorfias\omorfias.api\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.RazorTargetAssemblyInfo.cache
 F:\Projetos\omorfias\omorfias.api\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.csproj.CopyComplete
 F:\Projetos\omorfias\omorfias.api\API.Omorfias\obj\Debug\netcoreapp3.1\staticwebassets\API.Omorfias.StaticWebAssets.Manifest.cache
@@ -176,3 +173,6 @@ F:\Projetos\omorfias\omorfias.api\API.Omorfias\obj\Debug\netcoreapp3.1\staticweb
 F:\Projetos\omorfias\omorfias.api\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.dll
 F:\Projetos\omorfias\omorfias.api\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.pdb
 F:\Projetos\omorfias\omorfias.api\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.genruntimeconfig.cache
+F:\Projetos\omorfias\omorfias.api\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.csproj.CoreCompileInputs.cache
+F:\Projetos\omorfias\omorfias.api\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.MvcApplicationPartsAssemblyInfo.cs
+F:\Projetos\omorfias\omorfias.api\API.Omorfias\obj\Debug\netcoreapp3.1\API.Omorfias.MvcApplicationPartsAssemblyInfo.cache

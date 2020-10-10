@@ -10,5 +10,6 @@ namespace API.Omorfias.Data.Interfaces
         User GetById(int id);
         User FindUser(User userData);
         User FindByEmail(string email);
+        User Register(User userData);
     }
 }
