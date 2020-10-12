@@ -11,8 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\API.Omorfias.DataAgent\API.Omorfias.DataAgent.csproj" />
     <ProjectReference Include="..\API.Omorfias.Data\API.Omorfias.Data.csproj" />
     <ProjectReference Include="..\API.Omorfias.Domain\API.Omorfias.Domain.csproj" />
+    <ProjectReference Include="..\Operations\API.Omorfias.Operations.csproj" />
   </ItemGroup>
 
   <ItemGroup>

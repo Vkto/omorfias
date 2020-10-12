@@ -5,7 +5,7 @@ using System.Text;
 
 namespace API.Omorfias.Domain.Interfaces.Services
 {
-    public interface IUsersServices : IService<User, string>
+    public interface IUsersServices : IService<UserDomain, string>
     {
       
     }

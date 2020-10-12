@@ -1,11 +1,8 @@
 ﻿using API.Omorfias.Data.Mapping;
-using API.Omorfias.Domain.Models;
+using API.Omorfias.Data.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Debug;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace API.Omorfias.Data.Base
 {
@@ -21,9 +18,9 @@ namespace API.Omorfias.Data.Base
 
         }
 
-        #region Propriedades
- 
         public DbSet<User> User { get; set; }
+        #region Propriedades
+
 
         public static readonly LoggerFactory LoggerFactory = new LoggerFactory(new[] { new DebugLoggerProvider() });
 
@@ -36,9 +33,9 @@ namespace API.Omorfias.Data.Base
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
+            modelBuilder.Entity<User>().HasKey(m => m.Id);
             modelBuilder.HasDefaultSchema("dbo");
-            modelBuilder.ApplyConfiguration(new UserMap());
+            //modelBuilder.ApplyConfiguration(new UserMap());
 
             base.OnModelCreating(modelBuilder);
         }

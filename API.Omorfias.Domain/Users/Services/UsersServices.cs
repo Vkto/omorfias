@@ -8,12 +8,12 @@ using API.Omorfias.Domain.Users.Interfaces;
 
 namespace API.Omorfias.Domain.Users.Services
 {
-    public class UsersServices : Service<User, string>, IUsersServices
+    public class UsersServices : Service<UserDomain, string>, IUsersServices
     {
         private readonly IUsersRepository _usersRepository;
         private readonly IHandler<DomainNotification> _notifications;
 
-        public UsersServices(IRepository<User, string> repositoryUsers, IUsersRepository usersRepository, IHandler<DomainNotification> notifications) : base(repositoryUsers)
+        public UsersServices(IRepository<UserDomain, string> repositoryUsers, IUsersRepository usersRepository, IHandler<DomainNotification> notifications) : base(repositoryUsers)
         {
             _notifications = notifications;
             _usersRepository = usersRepository;

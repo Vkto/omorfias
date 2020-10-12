@@ -1,4 +1,5 @@
-﻿using API.Omorfias.Data.Base;
+﻿
+using API.Omorfias.Data.Base;
 using API.Omorfias.Domain.Users.Interfaces;
 
 namespace API.Omorfias.Data.Repositories
@@ -11,5 +12,6 @@ namespace API.Omorfias.Data.Repositories
         {
             _dbContext = dbContext;
         }
+
     }
 }
