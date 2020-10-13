@@ -20,3 +20,14 @@ F:\Projetos\omorfias\omorfias.api\Operations\obj\Debug\API.Omorfias.Operations.c
 F:\Projetos\omorfias\omorfias.api\Operations\obj\Debug\API.Omorfias.Operations.csproj.CopyComplete
 F:\Projetos\omorfias\omorfias.api\Operations\obj\Debug\Operations.dll
 F:\Projetos\omorfias\omorfias.api\Operations\obj\Debug\Operations.pdb
+C:\Chris\omorfias\omorfias.api\Operations\bin\Debug\Operations.dll
+C:\Chris\omorfias\omorfias.api\Operations\bin\Debug\Operations.pdb
+C:\Chris\omorfias\omorfias.api\Operations\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Chris\omorfias\omorfias.api\Operations\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Chris\omorfias\omorfias.api\Operations\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Chris\omorfias\omorfias.api\Operations\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+C:\Chris\omorfias\omorfias.api\Operations\obj\Debug\API.Omorfias.Operations.csprojAssemblyReference.cache
+C:\Chris\omorfias\omorfias.api\Operations\obj\Debug\API.Omorfias.Operations.csproj.CoreCompileInputs.cache
+C:\Chris\omorfias\omorfias.api\Operations\obj\Debug\API.Omorfias.Operations.csproj.CopyComplete
+C:\Chris\omorfias\omorfias.api\Operations\obj\Debug\Operations.dll
+C:\Chris\omorfias\omorfias.api\Operations\obj\Debug\Operations.pdb

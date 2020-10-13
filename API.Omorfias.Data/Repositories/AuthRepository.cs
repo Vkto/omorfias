@@ -13,7 +13,7 @@ namespace API.Omorfias.Data.Repositories
             _dbContext = dbContext;
         }
 
-        public User FindByUserEmail(string email)
+        public User FindByUserOrEmail(string email)
         {
             var user = _dbContext.User.Where(userDb => (userDb.Email.Equals(email) || userDb.UserName.Equals(email)))
                                       .FirstOrDefault();
@@ -35,7 +35,7 @@ namespace API.Omorfias.Data.Repositories
             _dbContext.User.Add(userData);
             _dbContext.SaveChanges();
 
-            return this.FindByEmail(userData.Email);
+            return this.FindByUserOrEmail(userData.Email);
         }
     }
 }

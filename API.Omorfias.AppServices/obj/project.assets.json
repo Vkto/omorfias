@@ -6445,19 +6445,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Christian\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.AppServices\\API.Omorfias.AppServices.csproj",
+      "projectUniqueName": "C:\\Chris\\omorfias\\omorfias.api\\API.Omorfias.AppServices\\API.Omorfias.AppServices.csproj",
       "projectName": "API.Omorfias.AppServices",
-      "projectPath": "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.AppServices\\API.Omorfias.AppServices.csproj",
-      "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
-      "outputPath": "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.AppServices\\obj\\",
+      "projectPath": "C:\\Chris\\omorfias\\omorfias.api\\API.Omorfias.AppServices\\API.Omorfias.AppServices.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Chris\\omorfias\\omorfias.api\\API.Omorfias.AppServices\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Christian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6470,17 +6470,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.DataAgent\\API.Omorfias.DataAgent.csproj": {
-              "projectPath": "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.DataAgent\\API.Omorfias.DataAgent.csproj"
+            "C:\\Chris\\omorfias\\omorfias.api\\API.Omorfias.DataAgent\\API.Omorfias.DataAgent.csproj": {
+              "projectPath": "C:\\Chris\\omorfias\\omorfias.api\\API.Omorfias.DataAgent\\API.Omorfias.DataAgent.csproj"
             },
-            "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.Data\\API.Omorfias.Data.csproj": {
-              "projectPath": "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.Data\\API.Omorfias.Data.csproj"
+            "C:\\Chris\\omorfias\\omorfias.api\\API.Omorfias.Data\\API.Omorfias.Data.csproj": {
+              "projectPath": "C:\\Chris\\omorfias\\omorfias.api\\API.Omorfias.Data\\API.Omorfias.Data.csproj"
             },
-            "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj": {
-              "projectPath": "F:\\Projetos\\omorfias\\omorfias.api\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj"
+            "C:\\Chris\\omorfias\\omorfias.api\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj": {
+              "projectPath": "C:\\Chris\\omorfias\\omorfias.api\\API.Omorfias.Domain\\API.Omorfias.Domain.csproj"
             },
-            "F:\\Projetos\\omorfias\\omorfias.api\\Operations\\API.Omorfias.Operations.csproj": {
-              "projectPath": "F:\\Projetos\\omorfias\\omorfias.api\\Operations\\API.Omorfias.Operations.csproj"
+            "C:\\Chris\\omorfias\\omorfias.api\\Operations\\API.Omorfias.Operations.csproj": {
+              "projectPath": "C:\\Chris\\omorfias\\omorfias.api\\Operations\\API.Omorfias.Operations.csproj"
             }
           }
         }
@@ -6518,7 +6518,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
