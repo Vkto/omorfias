@@ -71,9 +71,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -143,9 +140,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -300,7 +294,23 @@
       "restore": {
         "projectUniqueName": "F:\\Projetos\\omorfias\\omorfias.api\\Operations\\API.Omorfias.Operations.csproj",
         "projectName": "API.Omorfias.Operations",
-        "projectPath": "F:\\Projetos\\omorfias\\omorfias.api\\Operations\\API.Omorfias.Operations.csproj"
+        "projectPath": "F:\\Projetos\\omorfias\\omorfias.api\\Operations\\API.Omorfias.Operations.csproj",
+        "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "C:\\Users\\Christian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "packagesConfigPath": "F:\\Projetos\\omorfias\\omorfias.api\\Operations\\packages.config"
       },
       "frameworks": {
         "net472": {}

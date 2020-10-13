@@ -13,9 +13,10 @@ namespace API.Omorfias.Data.Repositories
             _dbContext = dbContext;
         }
 
-        public User FindByEmail(string email)
+        public User FindByUserEmail(string email)
         {
-            var user = _dbContext.User.Where(userDb => userDb.Email.Equals(email)).FirstOrDefault();
+            var user = _dbContext.User.Where(userDb => (userDb.Email.Equals(email) || userDb.UserName.Equals(email)))
+                                      .FirstOrDefault();
             return user;
         }
         public User FindUser(User userData)
