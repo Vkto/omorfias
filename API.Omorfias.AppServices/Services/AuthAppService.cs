@@ -29,7 +29,7 @@ namespace API.Omorfias.AppServices.Services
 
             string passwordHashed = _cryptyService.GenerateHashKey(login.Password);
 
-            User userLoged = _authRepository.FindByEmail(login.Email);
+            User userLoged = _authRepository.FindByUserOrEmail(login.Email);
 
             if (!passwordHashed.Equals(userLoged.Password))
             {
