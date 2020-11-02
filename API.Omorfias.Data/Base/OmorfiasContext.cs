@@ -19,6 +19,17 @@ namespace API.Omorfias.Data.Base
         }
 
         public DbSet<User> User { get; set; }
+        public DbSet<AccountType> AccountType { get; set; }
+        public DbSet<Adress> Adress { get; set; }
+        public DbSet<Card> Card { get; set; }
+        public DbSet<Enterprise> Enterprise { get; set; }
+        public DbSet<Favorites> Favorites { get; set; }
+        public DbSet<Post> Post { get; set; }
+        public DbSet<Premium> Premium { get; set; }
+        public DbSet<Scheduling> Scheduling { get; set; }
+        public DbSet<ServiceLocation> ServiceLocation { get; set; }
+        public DbSet<Services> Services { get; set; }
+
         #region Propriedades
 
 

@@ -12,8 +12,8 @@ namespace API.Omorfias.AppServices.Interfaces
         /// <paramref name="id"/>
         /// </summary>
         /// <returns></returns>
-        UsersOutputDto ObterPorId(int id);
-        IEnumerable<UsersOutputDto> ObterTodos();
+        EnterpriseOutputDto ObterPorId(int id);
+        IEnumerable<EnterpriseOutputDto> ObterTodos();
         /// <summary>
         /// Inclui usuário na base
         /// <paramref name="id"/>

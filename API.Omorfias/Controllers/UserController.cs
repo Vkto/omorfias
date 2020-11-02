@@ -21,7 +21,7 @@ namespace API.Omorfias.Controllers
         [HttpGet]
         [Route("obter/{id}")]
         [Authorize]
-        public DataResultsDto<UsersOutputDto> ObterUser(int id)
+        public DataResultsDto<EnterpriseOutputDto> ObterUser(int id)
         {
             
             var retorno = ResponseResult(_usersAppServices.ObterPorId(id));
@@ -30,7 +30,7 @@ namespace API.Omorfias.Controllers
         }
         [HttpGet]
         [Route("obter")]
-        public DataResultsDto<UsersOutputDto> ObterTodos()
+        public DataResultsDto<EnterpriseOutputDto> ObterTodos()
         {
 
             var retorno = ResponseResult(_usersAppServices.ObterTodos());

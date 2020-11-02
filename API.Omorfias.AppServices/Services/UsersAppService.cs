@@ -22,7 +22,7 @@ namespace API.Omorfias.AppServices.Services
             this._mapper = mapper;
         }
 
-        public UsersOutputDto ObterPorId(int id)
+        public EnterpriseOutputDto ObterPorId(int id)
         {
             var retorno = this._usersService.ObterPorId(id);
 
@@ -31,9 +31,9 @@ namespace API.Omorfias.AppServices.Services
                 _notifications.Handle(new DomainNotification(string.Empty, string.Format(Messages.Messages.UsuarioNaoEncontrado, id.ToString())));
             }
 
-            return _mapper.Map<UsersOutputDto>(retorno);
+            return _mapper.Map<EnterpriseOutputDto>(retorno);
         }
-        public IEnumerable<UsersOutputDto> ObterTodos()
+        public IEnumerable<EnterpriseOutputDto> ObterTodos()
         {
             var retorno = this._usersService.ObterTodos();
 
@@ -42,7 +42,7 @@ namespace API.Omorfias.AppServices.Services
                 _notifications.Handle(new DomainNotification(string.Empty, string.Format(Messages.Messages.UsuarioNaoEncontrado)));
             }
 
-            return _mapper.Map<IEnumerable<UsersOutputDto>>(retorno);
+            return _mapper.Map<IEnumerable<EnterpriseOutputDto>>(retorno);
         }
         public UsersInputDto Incluir(UsersInputDto usuario)
         {

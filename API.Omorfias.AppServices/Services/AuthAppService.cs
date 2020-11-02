@@ -40,7 +40,7 @@ namespace API.Omorfias.AppServices.Services
             string token = _dataAgent.GenerateToken(userLoged);
 
 
-            UsersOutputDto userOutput = _mapper.Map<UsersOutputDto>(userLoged);
+            EnterpriseOutputDto userOutput = _mapper.Map<EnterpriseOutputDto>(userLoged);
 
             AuthOutputDto authOutput = new AuthOutputDto { Token = token, User = userOutput };
             return _mapper.Map<AuthOutputDto>(authOutput);

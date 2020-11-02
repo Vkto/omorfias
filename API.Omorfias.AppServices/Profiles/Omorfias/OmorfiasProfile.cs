@@ -12,10 +12,12 @@ namespace API.Omorfias.AppServices.Profiles.Omorfias
     {
         public OmorfiasProfile()
         {
-            CreateMap<UsersOutputDto, User>().ReverseMap();
+            CreateMap<EnterpriseOutputDto, User>().ReverseMap();
             CreateMap<UsersInputDto, UserDomain>().ReverseMap();
             CreateMap<AuthInputDto, LoginDomain>().ReverseMap();
             CreateMap<ErrorOutPutDto, ErrorAction>().ReverseMap();
+            CreateMap<EnterpriseOutputDto, Enterprise>().ReverseMap();
+            
         }
     }
 }

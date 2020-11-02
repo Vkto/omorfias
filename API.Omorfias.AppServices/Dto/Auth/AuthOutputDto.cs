@@ -8,6 +8,6 @@ namespace API.Omorfias.AppServices.Dto.Login
     public class AuthOutputDto
     {
         public string Token { get; set; }
-        public UsersOutputDto User { get; set; }
+        public EnterpriseOutputDto User { get; set; }
     }
 }

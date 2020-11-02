@@ -151,6 +151,8 @@ namespace API.Omorfias
             services.AddTransient(typeof(IService<,>), typeof(Service<,>));
             services.AddTransient(typeof(IRepository<,>), typeof(Repository<,>));
             services.AddTransient<IUsersAppService, UsersAppService>();
+            services.AddTransient<IUserPageAppService, UserPageAppService>();
+            services.AddTransient<IEnterpriseRepository, EnterpriseRepository>();
             services.AddTransient<IUsersServices, UsersServices>();
             services.AddTransient<IAuthAppService, AuthAppService>();
             services.AddTransient<IUsersRepository, UsersRepository>();
