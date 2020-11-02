@@ -31,7 +31,7 @@ namespace API.Omorfias.AppServices.Services
 
             User userLoged = _authRepository.FindByUserOrEmail(login.Email);
 
-            if (!passwordHashed.Equals(userLoged.Password))
+            if (userLoged == null || !passwordHashed.Equals(userLoged.Password))
             {
                 ErrorAction error = new ErrorAction(1, Messages.Messages.UsuarioNaoEncontrado.Replace("{0}", login.Email));
                 throw error;
@@ -69,7 +69,7 @@ namespace API.Omorfias.AppServices.Services
 
             User userData = _authRepository.Register(userToRegister);
 
-            AuthInputDto login = new AuthInputDto { Email = userData.Email, Password= user.Password };
+            AuthInputDto login = new AuthInputDto { Email = userData.Email, Password = user.Password };
 
             return this.Login(login);
         }
