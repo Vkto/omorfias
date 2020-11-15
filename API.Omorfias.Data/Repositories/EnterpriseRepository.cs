@@ -42,12 +42,12 @@ namespace API.Omorfias.Data.Repositories
         {
             var services = new List<Services>
             {
-                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.BarberShop, Title = "Corte e Barba", Id  = 1, Price = 29.9M, Url=""},
-                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.BeautyStudio, Title = "Hidratação Capilar", Id  = 2, Price = 69.9M, Url=""},
-                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.BeautyClinic, Title = "Limpeza de Pele", Id  = 3, Price = 119.9M, Url=""},
-                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.Tattoo, Title = "Furo e Piercing", Id  = 4, Price = 49.9M, Url=""},
-                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.BeautyClinic, Title = "Sessão de Massagem", Id  = 5, Price = 149.9M, Url=""},
-                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.BarberShop, Title = "Corte Infantil", Id  = 6, Price = 25.9M, Url=""}
+                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.BarberShop, Title = "Corte e Barba", Id  = 1, Price = 29.9M, Url="https://omorfias.s3-sa-east-1.amazonaws.com/assets/assets/john-arano-CCTCHXEsan8-unsplash.png"},
+                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.BeautyStudio, Title = "Hidratação Capilar", Id  = 2, Price = 69.9M, Url="https://omorfias.s3-sa-east-1.amazonaws.com/assets/assets/adam-winger-WDmvpGs2060-unsplash.png"},
+                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.BeautyClinic, Title = "Limpeza de Pele", Id  = 3, Price = 119.9M, Url="https://omorfias.s3-sa-east-1.amazonaws.com/assets/assets/5+Dicas+Para+Spa+em+Casa+-+Estilo+Pro%E2%95%A0%C3%BCprio+By+Sir+monte+Spa+em+Casa%2C+rotina.png"},
+                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.Tattoo, Title = "Furo e Piercing", Id  = 4, Price = 49.9M, Url="https://omorfias.s3-sa-east-1.amazonaws.com/assets/assets/kilian-seiler-ZMYkPSNrb8I-unsplash.png"},
+                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.BeautyClinic, Title = "Sessão de Massagem", Id  = 5, Price = 149.9M, Url="https://omorfias.s3-sa-east-1.amazonaws.com/assets/assets/ale-romo-photography-CLiwQXx7kT8-unsplash.png"},
+                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.BarberShop, Title = "Corte Infantil", Id  = 6, Price = 25.9M, Url="https://omorfias.s3-sa-east-1.amazonaws.com/assets/assets/carlos-magno-7tllY5pwe4s-unsplash.png"}
 
 
             };
