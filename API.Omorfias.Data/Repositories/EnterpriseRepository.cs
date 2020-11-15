@@ -27,7 +27,7 @@ namespace API.Omorfias.Data.Repositories
             {
                  new Enterprise{Adress = new Adress{ City ="Belo Horizonte", Id   = 1,Neighborhood="Savassi", Number= 371, Street ="R. Tomé de Souza", Telephone = 31995278569},AverageValue = 4,Category= Enumerator.CategoryEnum.BarberShop, UrlImage="    https://omorfias.s3-sa-east-1.amazonaws.com/Salao+1.png", Cnpj = 58284242000134, Description="Tif's Savassi", Evaluation = 4, Id=1, Name="Tif's Savassi", Telephone = 3133352485, ServiceLocation = new ServiceLocation{Id =1, Home =true,Store=true }},
 
-                 
+
                 new Enterprise{Adress = new Adress{ City ="Belo Horizonte", Id   = 2,Neighborhood="Pampulha", Number= 921, Street ="Av. Cel. José Dias Bicalho", Telephone = 31995854725},AverageValue = 3,Category= Enumerator.CategoryEnum.BeautyStudio, UrlImage= "https://omorfias.s3-sa-east-1.amazonaws.com/Salao+2.jpg", Cnpj = 58284242000134, Description="Dom Beleza E Estética", Evaluation = 4, Id=2, Name="Dom Beleza E Estética", Telephone = 3136521452, ServiceLocation = new ServiceLocation{Id =2, Home =true,Store=true }},
 
 
@@ -36,6 +36,24 @@ namespace API.Omorfias.Data.Repositories
 
 
             return enterprises;
+        }
+
+        public List<Services> RecommendedForYou()
+        {
+            var services = new List<Services>
+            {
+                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.BarberShop, Title = "Corte e Barba", Id  = 1, Price = 29.9M, Url=""},
+                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.BeautyStudio, Title = "Hidratação Capilar", Id  = 2, Price = 69.9M, Url=""},
+                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.BeautyClinic, Title = "Limpeza de Pele", Id  = 3, Price = 119.9M, Url=""},
+                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.Tattoo, Title = "Furo e Piercing", Id  = 4, Price = 49.9M, Url=""},
+                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.BeautyClinic, Title = "Sessão de Massagem", Id  = 5, Price = 149.9M, Url=""},
+                 new Services{ CategoryEnum  =  Enumerator.CategoryEnum.BarberShop, Title = "Corte Infantil", Id  = 6, Price = 25.9M, Url=""}
+
+
+            };
+
+
+            return services;
         }
     }
 }

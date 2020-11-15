@@ -1,4 +1,5 @@
 ﻿using API.Omorfias.AppServices.Dto.Base;
+using API.Omorfias.AppServices.Dto.Services;
 using API.Omorfias.AppServices.Dto.Users;
 using API.Omorfias.AppServices.Interfaces;
 using API.Omorfias.Controllers.Base;
@@ -34,6 +35,15 @@ namespace API.Omorfias.Controllers
         public DataResultsDto<List<EnterpriseOutputDto>> GetNextToYou()
         {
             var retorno = ResponseResult(_userPageAppService.GetNextToYou());
+
+            return retorno;
+
+        }
+        [HttpGet]
+        [Route("obtain/RecommendedForYou")]
+        public DataResultsDto<List<ServicesOutputDto>> GetRecommendedForYou()
+        {
+            var retorno = ResponseResult(_userPageAppService.RecommendedForYou());
 
             return retorno;
 

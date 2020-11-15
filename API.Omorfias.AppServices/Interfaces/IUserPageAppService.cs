@@ -1,4 +1,5 @@
-﻿using API.Omorfias.AppServices.Dto.Users;
+﻿using API.Omorfias.AppServices.Dto.Services;
+using API.Omorfias.AppServices.Dto.Users;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,5 +10,6 @@ namespace API.Omorfias.AppServices.Interfaces
     {
         List<EnterpriseOutputDto> GetBetterRated();
         List<EnterpriseOutputDto> GetNextToYou();
+        List<ServicesOutputDto> RecommendedForYou();
     }
 }

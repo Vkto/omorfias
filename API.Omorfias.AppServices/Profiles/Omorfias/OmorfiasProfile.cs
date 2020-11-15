@@ -1,5 +1,6 @@
 ﻿using API.Omorfias.AppServices.Dto.Base;
 using API.Omorfias.AppServices.Dto.Login;
+using API.Omorfias.AppServices.Dto.Services;
 using API.Omorfias.AppServices.Dto.Users;
 using API.Omorfias.Data.Models;
 using API.Omorfias.Domain.Handler;
@@ -17,6 +18,7 @@ namespace API.Omorfias.AppServices.Profiles.Omorfias
             CreateMap<AuthInputDto, LoginDomain>().ReverseMap();
             CreateMap<ErrorOutPutDto, ErrorAction>().ReverseMap();
             CreateMap<EnterpriseOutputDto, Enterprise>().ReverseMap();
+            CreateMap<ServicesOutputDto, Data.Models.Services>().ReverseMap();
             
         }
     }

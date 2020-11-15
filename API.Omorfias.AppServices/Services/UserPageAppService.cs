@@ -1,4 +1,5 @@
-﻿using API.Omorfias.AppServices.Dto.Users;
+﻿using API.Omorfias.AppServices.Dto.Services;
+using API.Omorfias.AppServices.Dto.Users;
 using API.Omorfias.AppServices.Interfaces;
 using API.Omorfias.Data.Interfaces;
 using API.Omorfias.Domain.Base.Events;
@@ -43,6 +44,22 @@ namespace API.Omorfias.AppServices.Services
             try
             {
                 var enterprises = _mapper.Map<List<EnterpriseOutputDto>>(this._userPageRepository.GetNextToYou());
+
+                return enterprises;
+            }
+            catch (System.Exception ex)
+            {
+                this._notifications.Handle(new DomainNotification(null, ex.Message));
+
+                return null;
+            }
+        }
+
+        public List<ServicesOutputDto> RecommendedForYou()
+        {
+            try
+            {
+                var enterprises = _mapper.Map<List<ServicesOutputDto>>(this._userPageRepository.RecommendedForYou());
 
                 return enterprises;
             }
