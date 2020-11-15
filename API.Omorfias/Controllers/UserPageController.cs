@@ -21,10 +21,19 @@ namespace API.Omorfias.Controllers
         }
 
         [HttpGet]
-        [Route("obter/GetBetterRated")]
+        [Route("obtain/GetBetterRated")]
         public DataResultsDto<List<EnterpriseOutputDto>> GetBetterRated()
         {
             var retorno = ResponseResult(_userPageAppService.GetBetterRated());
+
+            return retorno;
+
+        }
+        [HttpGet]
+        [Route("obtain/NextToYou")]
+        public DataResultsDto<List<EnterpriseOutputDto>> GetNextToYou()
+        {
+            var retorno = ResponseResult(_userPageAppService.GetNextToYou());
 
             return retorno;
 

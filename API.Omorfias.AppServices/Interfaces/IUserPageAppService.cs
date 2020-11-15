@@ -8,6 +8,6 @@ namespace API.Omorfias.AppServices.Interfaces
     public interface IUserPageAppService
     {
         List<EnterpriseOutputDto> GetBetterRated();
-      
+        List<EnterpriseOutputDto> GetNextToYou();
     }
 }

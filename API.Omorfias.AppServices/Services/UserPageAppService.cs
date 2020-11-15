@@ -38,5 +38,20 @@ namespace API.Omorfias.AppServices.Services
             }
         }
 
+        public List<EnterpriseOutputDto> GetNextToYou()
+        {
+            try
+            {
+                var enterprises = _mapper.Map<List<EnterpriseOutputDto>>(this._userPageRepository.GetNextToYou());
+
+                return enterprises;
+            }
+            catch (System.Exception ex)
+            {
+                this._notifications.Handle(new DomainNotification(null, ex.Message));
+
+                return null;
+            }
+        }
     }
 }

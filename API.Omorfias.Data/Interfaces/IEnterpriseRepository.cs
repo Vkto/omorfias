@@ -8,6 +8,6 @@ namespace API.Omorfias.Data.Interfaces
     public interface IEnterpriseRepository
     {
         List<Enterprise> GetBetterRated();
-
+        List<Enterprise> GetNextToYou();
     }
 }
