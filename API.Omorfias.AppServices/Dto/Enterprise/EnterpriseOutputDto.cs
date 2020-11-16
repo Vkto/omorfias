@@ -1,4 +1,5 @@
-﻿using API.Omorfias.Data.Enumerator;
+﻿using API.Omorfias.AppServices.Dto.Services;
+using API.Omorfias.Data.Enumerator;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -19,6 +20,8 @@ namespace API.Omorfias.AppServices.Dto.Users
         public decimal? Cpf { get; set; }
         public CategoryEnum Category { get; set; }
         public string UrlImage { get; set; }
+
+        public List<ServicesOutputDto> Services { get; set; }
 
     }
 }
