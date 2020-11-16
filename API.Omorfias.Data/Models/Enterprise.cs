@@ -15,6 +15,7 @@ namespace API.Omorfias.Data.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public int Evaluation { get; set; }
+        public int ReviewsNumber { get; set; }
         public string Description { get; set; }
         public decimal Telephone { get; set; }
         public DateTime? StartDate { get; set; }
