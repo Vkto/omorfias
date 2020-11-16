@@ -10,6 +10,7 @@ namespace API.Omorfias.AppServices.Interfaces
     {
         List<EnterpriseOutputDto> GetBetterRated();
         List<EnterpriseOutputDto> GetNextToYou();
+        EnterpriseOutputDto GetEnterprise(int id);
         List<ServicesOutputDto> RecommendedForYou();
     }
 }

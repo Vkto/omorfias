@@ -54,7 +54,21 @@ namespace API.Omorfias.AppServices.Services
                 return null;
             }
         }
+        public EnterpriseOutputDto GetEnterprise(int id)
+        {
+            try
+            {
+                var enterprises = _mapper.Map<EnterpriseOutputDto>(this._userPageRepository.GetEnterprise(id));
 
+                return enterprises;
+            }
+            catch (System.Exception ex)
+            {
+                this._notifications.Handle(new DomainNotification(null, ex.Message));
+
+                return null;
+            }
+        }
         public List<ServicesOutputDto> RecommendedForYou()
         {
             try
@@ -70,5 +84,7 @@ namespace API.Omorfias.AppServices.Services
                 return null;
             }
         }
+
+      
     }
 }

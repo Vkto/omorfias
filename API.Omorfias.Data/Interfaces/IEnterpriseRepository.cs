@@ -9,6 +9,7 @@ namespace API.Omorfias.Data.Interfaces
     {
         List<Enterprise> GetBetterRated();
         List<Enterprise> GetNextToYou();
+        Enterprise GetEnterprise(int id);
         List<Services> RecommendedForYou();
     }
 }

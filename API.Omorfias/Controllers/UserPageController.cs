@@ -31,6 +31,15 @@ namespace API.Omorfias.Controllers
 
         }
         [HttpGet]
+        [Route("obtain/GetEnterprise/{id}")]
+        public DataResultsDto<EnterpriseOutputDto> GetEnterprise(int id)
+        {
+            var retorno = ResponseResult(_userPageAppService.GetEnterprise(id));
+
+            return retorno;
+
+        }
+        [HttpGet]
         [Route("obtain/NextToYou")]
         public DataResultsDto<List<EnterpriseOutputDto>> GetNextToYou()
         {
